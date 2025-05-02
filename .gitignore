@@ -1,3 +1,19 @@
-node_modules
-# Keep environment variables out of version control
+# Dependências do node
+node_modules/
 
+# Arquivos de ambiente
+.env
+
+# Arquivos de build
+/dist
+/build
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
+
+# Arquivos de backup
+*~
